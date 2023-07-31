@@ -1,0 +1,120 @@
+import {dictionary, qwerty} from './dictionary.js';
+
+const dic = dictionary;
+const keys = qwerty;
+const keyboard = document.getElementById('keyboard');
+
+// game state
+const state = {
+    secret: dic[Math.floor(Math.random() * dic.length)],
+    grid: Array(6)
+    .fill()
+    .map(() => Array(5).fill('')), 
+    currentRow: 0, 
+    currentCol: 0,
+};
+
+/**
+ * Draws the gameboard a div.
+ * Set the className as 'grid'
+ * Grid should be 6 rows by 5 columns.
+ * Appends the gameboard to the container
+ */
+
+ 
+
+/**
+ * Given the row and column,
+ * draw the blank box
+ * set the class  to 'box'
+ * set the id to a unique identifier based on row and col
+ * append the box to the container
+ */
+
+
+
+/**
+ * Called to update game when a letter is entered
+ * 
+ * Map all contents of state.grid to match that of the UI
+ * Hint: We can utilize the unique identifier based on row and col
+ */
+
+
+/** 
+ * Create and set up on-screen keyboard
+ */
+
+
+/** 
+ * Listener for keyboard
+ */
+
+
+/** 
+ * Listener for on-screen keyboard
+ */
+
+
+// Check user's guess against the word
+
+
+/**
+ * Processes key presses. (Onscreen and Keyboard)
+ * 
+ * Should process 'ENTER' and 'Enter'. 
+ * Should process '⌫' and 'Backspace'
+ * 
+ * If the key is a letter, then invoke 'addLetter(key)'
+ * Update the game
+ */
+
+
+// get the word from the game grid
+
+
+
+// validate the word
+
+
+
+/**
+ * Processes a given valid word in the row in 'state':
+ *  
+ *  Change color of boxes
+ *    Use ('right', 'almost', 'empty') properties
+ *  Change the onscreen keyboard color
+ *  Animate the boxes
+ *  
+ *  Determine if the game has ended.
+ *  Display an approriate message for a win / loss
+ */
+
+
+// Change the key colors for on-screen keyboard 
+
+
+// Message pop-up
+
+
+// Validate letter
+
+
+
+// Add letter to game grid square
+
+
+// Remove letter from game grid square
+
+
+/**
+ *  Removes invalid word from game grid
+ */
+
+
+/**
+ * Creates a new Game
+ * 
+ * Passes in 'game' div to drawGrid(container)
+ * Creates key listeners
+ */
