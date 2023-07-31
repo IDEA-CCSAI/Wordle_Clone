@@ -1,0 +1,73 @@
+html,
+body {
+    background: var(--default);
+    display: grid;
+    place-items: center;
+}
+/* base colors setup */
+:root {
+    --default: #09090a;
+    --wrong: #353538;
+    --right: #6aa863;
+    --almost: #cbba56;
+    --message: #cadae7;
+}
+
+/* style title */
+
+
+/* style game 
+* grid display, centered, width and height */
+
+
+/* style letter box grid
+*6 repeated rows and 5 repeated columns */
+
+
+/* letter box set up 
+* set width and height to make the box
+* border style, margin, font family and size
+* text color, to uppercase, and centered */
+
+
+/* letter box background colors 
+* for each state of the box
+* wrong, right, and almost */
+
+
+/*key flip animation
+* and keyframes setup 
+* tranformations occurs at 0%, 50%, and 100%*/
+
+
+/* keyboard style 
+* set width, display, and flex-wrap */
+
+
+/* style keyboard buttons 
+* set width, height, border, color, font etc.*/
+
+
+/* style on-screen keys after user inputs
+* for wrong, right, and almost 
+* styles similar to keyboard buttons 
+* only changes in color */
+
+
+/* style the enter button 
+* via nth-child */
+
+
+/* style the backspace button 
+* via nth-child */
+
+
+/* spacing before A button */
+
+
+
+/* style messageDiv */
+
+
+/* style message 
+* background, border, transition, etc. */
