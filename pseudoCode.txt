@@ -34,7 +34,7 @@ const state = {
 
 
 /**
- * Called to update game when a letter is entered
+ * Called to update game state
  * 
  * Map all contents of state.grid to match that of the UI
  * Hint: We can utilize the unique identifier based on row and col
