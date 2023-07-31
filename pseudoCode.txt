@@ -82,7 +82,7 @@ const state = {
  * Processes a given valid word in the row in 'state':
  *  
  *  Change color of boxes
- *    Use ('right', 'almost', 'empty') properties
+ *    Use ('right', 'almost', 'wrong') properties
  *  Change the onscreen keyboard color
  *  Animate the boxes
  *  
